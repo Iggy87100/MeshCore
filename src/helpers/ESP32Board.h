@@ -142,7 +142,7 @@ public:
       raw += analogReadMilliVolts(PIN_VBAT_READ);
     }
     raw = raw / 4;
-    raw = raw + 75;
+    raw = raw + 80;
 
     return (2 * raw);
   #else
